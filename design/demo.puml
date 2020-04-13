@@ -9,7 +9,7 @@ package paper <<Aggregate>>  {
     class BlankQuiz <<Value Object>>{
         id: String
         question: String
-        refrenceAnswer: String
+        referenceAnswer: String
     }
     Paper "1" *-- "n" BlankQuiz
 }
