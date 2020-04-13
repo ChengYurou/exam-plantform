@@ -2,7 +2,7 @@
 package paper <<Aggregate>>  {
     class Paper <<Aggregate Root>> {
         id: String
-        blankQuiz: List
+        blankQuizzes: List
         updateBlankQuizzes()
         {static} create(): Paper
     }
